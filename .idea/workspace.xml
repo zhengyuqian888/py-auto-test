@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8b4136a-91a6-4b05-a662-e384d6cd6d1c" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Day_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1790773029011</updated>
-      <workItem from="1790816539265" duration="12316000" />
+      <workItem from="1790816539265" duration="12859000" />
+      <workItem from="1790863945949" duration="278000" />
     </task>
     <servers />
   </component>
@@ -88,6 +89,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/py_auto_test$Day_1.coverage" NAME="Day_1 覆盖结果" MODIFIED="1790829307317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_auto_test$Day_1.coverage" NAME="Day_1 覆盖结果" MODIFIED="1790864006710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

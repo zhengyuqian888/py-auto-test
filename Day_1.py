@@ -60,7 +60,7 @@ matched = []                                             #创建一个空列表�
 matched_like = []
 for c in cases:                                          #c也只是一个自定义的循环变量名，可随意取
     if c["login_name"]=="zyq":                           #==精准匹配zyq
-        matched.append(c["id"])        #将遍历匹配成功的记录id放进matched列表中
+        matched.append(c["id"])                          #将遍历匹配成功的记录id放进matched列表中
     if "zyq" in c["login_name"]:                         #遍历模糊匹配login_name含有“zyq”的数据
         matched_like.append((c["id"],c["login_name"]))   #将匹配成功的记录id和login_name字段值放进matched_like列表中
 
