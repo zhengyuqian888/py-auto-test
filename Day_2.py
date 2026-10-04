@@ -27,7 +27,7 @@ for bug in bugs:
     #所以定义布尔值Boolean，类似于昨日report拼接调用，方便更改规则，以实现打破if、elif、else的互斥
     #因匹配“bug”变量，所以需要在循环内创建，否则无法识别“bug”是什么
     boo_high = any(k in bug for k in kewords)               #成功匹配（满足）kewords列表任意一个条件即可
-    boo_high_merge = (k in bug for k in all_kewords)     #成功匹配（满足）all_kewords列表所有条件
+    boo_high_merge = all(k in bug for k in all_kewords)     #成功匹配（满足）all_kewords列表所有条件
     if "支付" in bug and "异常" in bug:
         high_bug.append(bug)
     if boo_high:
@@ -40,7 +40,7 @@ for bug in bugs:
         minor_bug.append(bug)
 print("严重bug有",len(critical_bug),"个,分别是：",critical_bug)
 print("轻微bug有",len(minor_bug),"个,分别是：",minor_bug)
-print("最高优先级bug（all函数写法验证）：",len(high_bug_merge),"个,具体是",high_bug_merge,
+print("all函数写法bug：",len(high_bug_merge),"个,具体是",high_bug_merge,
       ";另外，注意bug列表中还有",empty_count,"个空值；以及支付跳转问题的",len(high_bug),"个bug：",high_bug)
 
 #练习随机数等函数生成手机号
